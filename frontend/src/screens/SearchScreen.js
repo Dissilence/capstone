@@ -47,6 +47,14 @@ const prices = [
     name: '$201 to $1000',
     value: '201-1000',
   },
+  {
+    name: '$1001 to $2500',
+    value: '1001-5000',
+  },
+  {
+    name: '$2501 to $5000',
+    value: '2501-5000',
+  },
 ];
 
 export const ratings = [
@@ -74,7 +82,7 @@ export const ratings = [
 export default function SearchScreen() {
   const navigate = useNavigate();
   const { search } = useLocation();
-  const sp = new URLSearchParams(search); // /search?category=Shirts
+  const sp = new URLSearchParams(search);
   const category = sp.get('category') || 'all';
   const query = sp.get('query') || 'all';
   const price = sp.get('price') || 'all';
