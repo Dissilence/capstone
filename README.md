@@ -35,5 +35,8 @@ CLOUDINARY_API_SECRET=
 to be filled in with your own data, you can get the paypal ID by going to development.paypal.com and creating a sandbox account and getting access to the link
 for payment. the JWT secret should be something of your choosing, mongo URI should be the uri to connect to ur mongo db back end. cloudiary api key and url
 can be used by signing up for cloudinary and going to your account and copy past the key and url. connect to the mongo db (reccomend that you use mongodb compass to connect). 
-
 there should be no issue running the files and deploying the code locally.
+
+The page will reload when you make changes. if there are errors, it will appear in the console.
+
+
