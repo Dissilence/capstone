@@ -13,7 +13,7 @@ main {
   flex: 1;
 }
 .btn-primary {
-  background-color: #f0c040;
+  background-color: #730021;
   color: black;
 }
 .products {
@@ -49,6 +49,36 @@ main {
   color: #a0a0a0;
 }
 .checkout-steps > div.active {
-  border-bottom: 0.2rem solid #f08000;
+  border-bottom: 0.2rem solid #730021;
   color: #f08000;
+}
+
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+button.thumbnail {
+  padding: 0;
 }
