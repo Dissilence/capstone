@@ -127,7 +127,7 @@ function ProductScreen() {
       <Row>
         <Col md={6}>
           <img
-            className="img-large"
+            className="img-large card-img"
             src={selectedImage || product.image}
             alt={product.name}
           ></img>

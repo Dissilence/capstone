@@ -84,3 +84,12 @@ ul {
   list-style: none;
   counter-reset: 0;
 }
+.card-img {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-dimension {
+  height: 300px;
+}
