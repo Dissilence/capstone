@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useReducer, useState } from 'react';
-import { Navigate, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 import { Store } from '../Store';
@@ -43,7 +43,7 @@ const reducer = (state, action) => {
 };
 export default function ProductEditScreen() {
   const navigate = useNavigate();
-  const params = useParams(); // /product/:id
+  const params = useParams();
   const { id: productId } = params;
 
   const { state } = useContext(Store);
@@ -237,7 +237,7 @@ export default function ProductEditScreen() {
             />
           </Form.Group>
           <Form.Group className="mb-3" controlId="brand">
-            <Form.Label>Brand</Form.Label>
+            <Form.Label>Game</Form.Label>
             <Form.Control
               value={brand}
               onChange={(e) => setBrand(e.target.value)}
