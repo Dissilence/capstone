@@ -21,7 +21,7 @@ productRouter.post(
       image: '/images/p1.jpg',
       price: 0,
       category: 'sample category',
-      brand: 'sample brand',
+      brand: 'sample game',
       countInStock: 0,
       rating: 0,
       numReviews: 0,
